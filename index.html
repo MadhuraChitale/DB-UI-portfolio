@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="bg-primary text-white text-center py-5">
+      <div class="container">
+        <img
+          src="profile.png"
+          class="rounded-circle"
+          alt="Profile Picture"
+          width="150"
+          height="150"
+        />
+        <h1 class="mt-3">Madhura Chitale</h1>
+        <p class="lead">
+          Hi! I am a Computer Engineer from Sardar Patel Institute of Technology
+          (2024 passout). I am currently working as a Graduate Analyst at
+          Deutsche Bank, Pune.
+        </p>
+      </div>
+    </header>
+
+    <section id="about" class="py-5">
+      <div class="container">
+        <h2 class="text-center">About Me</h2>
+        <p class="text-center">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+          vehicula libero vitae eros varius, sed tincidunt ex varius. In hac
+          habitasse platea dictumst. Morbi ut sapien ac eros commodo tincidunt.
+          Integer tempor arcu id erat laoreet, nec sollicitudin nisl efficitur.
+          Donec nec felis id neque ultrices luctus. Nam scelerisque metus sed
+          dui sollicitudin, a convallis turpis sagittis. Aenean condimentum
+          venenatis nisl, at facilisis mauris scelerisque
+        </p>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="bg-light py-5">
+      <div class="container">
+        <h2 class="text-center">My Projects</h2>
+        <div class="card-deck">
+          <!-- Deepfake Audio Detection -->
+          <div class="card mb-4">
+            <img
+              src="df.png"
+              class="card-img-top"
+              alt="Deepfake Audio Detection"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Deepfake Audio Detection</h5>
+              <ul class="card-text">
+                <li>
+                  Developed a deepfake audio detection system using different
+                  feature extraction techniques such as MFCC.
+                </li>
+                <li>
+                  Built a hybrid Deep Learning model using CNN and LSTM for
+                  deepfake audio detection.
+                </li>
+                <li>Achieved an accuracy of 94%.</li>
+              </ul>
+            </div>
+          </div>
+          <!-- Sentiment Analysis -->
+          <div class="card mb-4">
+            <img src="sa.png" class="card-img-top" alt="Sentiment Analysis" />
+            <div class="card-body">
+              <h5 class="card-title">Sentiment Analysis</h5>
+              <ul class="card-text">
+                <li>
+                  Developed a model for Sentiment Analysis and Emotion
+                  Recognition on text data.
+                </li>
+                <li>
+                  Implemented using SVM, Naive Bayes, and BERT algorithms on
+                  tweets using Twitter API.
+                </li>
+                <li>
+                  Achieved an accuracy of 92.09% for SVM and 90.27% for Naive
+                  Bayes.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Shop Shack -->
+          <div class="card mb-4">
+            <img src="ec.png" class="card-img-top" alt="Shop Shack" />
+            <div class="card-body">
+              <h5 class="card-title">Shop Shack-E-commerce Website</h5>
+              <ul class="card-text">
+                <li>
+                  Developed an e-commerce web application catering to clothing
+                  apparel purchases for men, women, and kids.
+                </li>
+                <li>
+                  Web crawling for products, Google authentication, and
+                  integrated payment gateway using Stripe API.
+                </li>
+                <li>Technologies used: MERN stack.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h2 class="text-center">Contact</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Your Name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Your Email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="4"
+                  placeholder="Your Message"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">
+                Send
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
